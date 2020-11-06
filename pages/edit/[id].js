@@ -2,7 +2,7 @@ import Head from "next/head";
 import { getSnippetById } from "../../utils/Fauna";
 import SnippetForm from "../../components/SnippetForm";
 
-export default function Home({ snippet }) {
+export default function PageEdit({ snippet }) {
   return (
     <div>
       <Head>
