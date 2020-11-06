@@ -1,5 +1,5 @@
 import React from "react";
-import Code from "./code";
+import Code from "./Code";
 import Link from "next/link";
 
 export default function Snippet({ snippet, snippetDeleted }) {
