@@ -1,16 +1,15 @@
 import React from "react";
 import Code from "./code";
 import Link from "next/link";
-import { useRouter } from "next/router";
 
 export default function Snippet({ snippet, snippetDeleted }) {
-  const router = useRouter();
-
   const deleteSnippet = async () => {
     try {
       await fetch("/api/deleteSnippet", {
         method: "DELETE",
-        body: JSON.stringify({ id: snippet.id }),
+        body: JSON.stringify({
+          id: snippet.id,
+        }),
         headers: {
           "Content-Type": "application/json",
         },
