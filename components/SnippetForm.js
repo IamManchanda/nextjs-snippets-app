@@ -38,9 +38,7 @@ export default function SnippetForm({ snippet }) {
       console.error(err);
     }
   };
-  //TODO: register inputs and add error messages
   return (
-    //TODO: wrap with handleSubmit from react-hook-form
     <form onSubmit={handleSubmit(snippet ? updateSnippet : createSnippet)}>
       <div className="mb-4">
         <label
