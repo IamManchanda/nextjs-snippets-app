@@ -1,4 +1,5 @@
 import { createSnippet } from "../../utils/Fauna";
+
 export default async function handler(req, res) {
   const { code, language, description, name } = req.body;
   if (req.method !== "POST") {
