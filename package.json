@@ -1,12 +1,23 @@
 {
   "name": "nextjs-snippets-app",
   "version": "0.1.0",
-  "private": true,
+  "description": "Next.js Code Snippets App",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamManchanda/nextjs-snippets-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IamManchanda/nextjs-snippets-app/issues"
+  },
+  "homepage": "https://github.com/IamManchanda/nextjs-snippets-app#readme",
   "dependencies": {
     "faunadb": "^3.0.1",
     "next": "^10.0.1",
